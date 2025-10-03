@@ -13,30 +13,41 @@ The weather feature uses the OpenWeatherMap API to fetch real-time data based on
 ### Authentication System
 
 - **Dual Authentication Options:**
+**Cloud-Based**: Supabase integration with bcrypt password hashing
+```bash
+# clone and install dependencies
+```
 
-```bash  - **Cloud-Based**: Supabase integration with bcrypt password hashing
-
-# clone and install dependencies  - **Local Authentication**: Custom SHA-256 implementation with salt (10,000 iterations)
-
-git clone <your-repo-url>- **Secure Password Management**: Industry-standard hashing with constant-time comparison
-
-cd olly_app- **Session Management**: Persistent login with automatic session handling
-
-flutter pub get- **Complete Auth Flow**: Registration, login, logout with validation
-
-
+**Local Authentication**: Custom SHA-256 implementation with salt (10,000 iterations)
+```bash
+git clone <your-repo-url>
+```
+**Secure Password Management**: Industry-standard hashing with constant-time comparison
+```bash
+cd olly_app
+```
+**Session Management**: Persistent login with automatic session handling
+```bash
+flutter pub get
+```
+**Complete Auth Flow**: Registration, login, logout with validation
 
 # Run on web
+```bash
+flutter run -d chrome
+```
+**Real-Time Weather Data**: OpenWeatherMap API integration (v2.5)
 
-flutter run -d chrome- **Real-Time Weather Data**: OpenWeatherMap API integration (v2.5)
-
-- **Location-Based**: Automatic GPS detection of user's current location
+**Location-Based**: Automatic GPS detection of user's current location
 
 # Run tests (19 tests, all passing)- **City Search**: Manual location search functionality
+```bash
+flutter test
+```
+**Dynamic Theming**: Day/night mode based on sunrise/sunset times
 
-flutter test- **Dynamic Theming**: Day/night mode based on sunrise/sunset times
 
-```- **Comprehensive Display**:
+**Comprehensive Display**:
 
   - Current temperature (Celsius)
 
