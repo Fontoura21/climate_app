@@ -12,11 +12,8 @@ The weather feature uses the OpenWeatherMap API to fetch real-time data based on
 ## Running the App
 ### Authentication System
 
-- **Dual Authentication Options:**
+**Dual Authentication Options:**
 **Cloud-Based**: Supabase integration with bcrypt password hashing
-```bash
-# clone and install dependencies
-```
 
 **Local Authentication**: Custom SHA-256 implementation with salt (10,000 iterations)
 ```bash
