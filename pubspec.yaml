@@ -1,0 +1,35 @@
+name: olly_app
+description: Auth + Weather demo with secure password hashing
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.6
+
+  # Auth & backend
+  supabase_flutter: ^2.10.2
+
+  # Location + Network
+  geolocator: ^14.0.2
+  http: ^1.5.0
+  intl: ^0.20.2
+  geocoding: ^4.0.0
+  lottie: ^3.3.2
+  
+  # Security & Storage
+  crypto: ^3.0.3
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
