@@ -1,6 +1,6 @@
-# Olly App
+# Climate App
 
-# Olly App - Flutter Weather App with Secure Authentication
+# Climate App - Flutter Weather App with Secure Authentication
 
 A Flutter weather app built for a technical assessment. It features secure user authentication and displays real-time weather information based on your current location.A production-ready Flutter application demonstrating secure user authentication and real-time weather information. Built as a technical assessment showcasing best practices in mobile and web development.
 
